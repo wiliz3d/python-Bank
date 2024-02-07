@@ -7,7 +7,6 @@ import logging
 
 def organise_files(directory_path, customer_categories =None):
     if customer_categories is None:
-        
         categories = {
             'Images': ['png','jpg','jpeg','gif'],
             'Documents':['doc','docx','pdf','txt'],
